@@ -1,0 +1,17 @@
+# Yves Hwang
+# 29.02.2016
+#
+# Log parser rules
+
+error /(?i)error /
+warning /[Ww]arning/
+warning /WARNING/
+build /build/
+jar /jar/
+test /test/
+integrationTest /integrationTest/
+findbugsMain /findbugsMain/
+findbugsTest /findbugsTest/
+pmdMain /pmdMain/
+pmdTest /pmdTest/
+check /check/
